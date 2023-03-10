@@ -1,0 +1,149 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  
+  
+}
+
+html {
+  background: radial-gradient(
+    #D5F3FF 0%,
+    #51B4E8 100%
+    
+  );
+}
+
+
+.button{
+  width: 178px;
+  height: 38px;
+  background-color: #38A0D8;
+  border-radius: 4.85px;
+  offset: 0px, 4.85px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.25));
+  fill: solid;
+  
+}
+
+
+#card{
+  background: linear-gradient(
+    #E5F2FF 0%,
+    #D5F3FF 97.4%
+  );
+  border-radius: 4.85px;
+  offset: 0px, 4.8px;
+
+  width: 70vh;
+    height: 40vh;
+    clip-path: polygon(0 0, 0 200%, 500% 100%);
+    border-top-right-radius: 80rem 15rem ;
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    background-color: #ffff;
+    color: #026EED ;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+#degree{
+position: absolute;
+padding-top: 120px;
+padding-left: 20px;
+font-size: 95px;
+font-weight: normal;
+}    
+#descrption{
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 280px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#descrption1{
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 320px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#descrption2{
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 360px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+#city{
+  position: absolute;
+  padding-top: 420px;
+  padding-left: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+#weather{
+  position: absolute;
+  padding-top: 420px;
+  padding-right: 50px;
+  padding-left: 680px;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+
+#image{
+  position: absolute;
+  padding-left: 650px;
+  padding-top: 80px;
+
+}
+
+#find{
+  position: relative;
+  top: -150px;
+  left: 10px;
+}
+
+.App{
+  width: 200vh;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
+.input{
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-size:35px;
+  border:#E5F2FF;
+  background-color: #51b3e865 ;
+  outline: #51b3e865;
+  text-align: center;
+  width: 80%;
+  height: 60px;
+  
+}
+
+.buttonFind{
+  /* padding: 10px 50px; */
+  border-radius: 20px;
+  font-size:25px;
+  border-bottom:#38A0D8;
+  background-color: #38A0D8;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+
+
+}
