@@ -44,13 +44,20 @@ function App() {
         <button className='buttonFind' onClick={searchByCity} > Find</button>
       </div>
       <div id='card'>
-        <h1 id='degree'>{(response.main?.temp - 273.15).toFixed(0)}°C</h1>
-        <img id='image' src={`https://openweathermap.org/img/wn/${response.weather?.[0].icon}@4x.png`} alt="" />
-        <p id='descrption'><span>Wind:</span> {response.wind?.speed}</p>
-        <p id='descrption1'><span>Clouds:</span> {response.clouds?.all} </p>
-        <p id='descrption2'><span>Pressure:</span> {response.main?.pressure} </p>
-        <h2 id='city' >{response.name}, {response.sys?.country} </h2>
-        <h3 id='weather' >{response.weather?.[0].description}</h3>
+      <img id='image' src={`https://openweathermap.org/img/wn/${response.weather?.[0].icon}@4x.png`} alt="" />
+          <div className='upCard'>
+          <h1 id='degree'>{(response.main?.temp - 273.15).toFixed(0)}°C</h1>
+          
+          </div>
+          <div className='middleCard'>
+          <p id='descrption'><span>Wind:</span> {response.wind?.speed}</p>
+          <p id='descrption1'><span>Clouds:</span> {response.clouds?.all} </p>
+          <p id='descrption2'><span>Pressure:</span> {response.main?.pressure} </p>
+          </div>
+          <div className='downCard'>
+          <h2 id='city' >{response.name}, {response.sys?.country} </h2>
+          <h3 id='weather' >{response.weather?.[0].description}</h3>
+          </div>
         </div>
     </div>
     
