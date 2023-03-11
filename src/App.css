@@ -25,6 +25,8 @@ align-items: center;
 .App{
 
   margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
 
 }
 
@@ -51,7 +53,7 @@ align-items: center;
 
 #find{
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   justify-content: center;
 }
 
@@ -69,65 +71,63 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
-  padding-top: 100px;
+  padding: 10px 30px;
 }
 
 #image{
   position: absolute;
   right: 0;
-  top: 20%;
-  /* display: inline; */
-  
- /* height: 250px; */
+  top: 25%;
+
   
 }
 
 .middleCard{
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   flex-direction: column;
   height: 40%;
-  padding: 0 40px;
+  padding: 0 30px;
+  margin-top: 20px;
 }
 
 #degree{
-font-size: 95px;
+font-size: 50px;
 font-weight: normal;
 }    
 
 
 #descrption{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   
 }
 
 #descrption1{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 #descrption2{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .downCard{
 display: flex;
-margin-top: 40px;
+margin-top: 25px;
 justify-content: space-between;
-padding: 0 40px;
+padding: 0 30px;
 }
 
 #city{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
   /* display: flex; */
   
 }
 #weather{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
 
 }
@@ -137,7 +137,7 @@ padding: 0 40px;
 
 .input{
   border-radius: 20px;
-  font-size:35px;
+  font-size:25px;
   border:#E5F2FF;
   background-color: #51b3e865 ;
   outline: #51b3e865;
@@ -148,7 +148,7 @@ padding: 0 40px;
 
 .buttonFind{
   border-radius: 20px;
-  font-size:25px;
+  font-size:15px;
   border-bottom:#38A0D8;
   background-color: #38A0D8;
 }

@@ -44,7 +44,7 @@ function App() {
         <button className='buttonFind' onClick={searchByCity} > Find</button>
       </div>
       <div id='card'>
-      <img id='image' src={`https://openweathermap.org/img/wn/${response.weather?.[0].icon}@4x.png`} alt="" />
+      <img id='image' src={`https://openweathermap.org/img/wn/${response.weather?.[0].icon}@2x.png`} alt="" />
           <div className='upCard'>
           <h1 id='degree'>{(response.main?.temp - 273.15).toFixed(0)}°C</h1>
           
